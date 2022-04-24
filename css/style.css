@@ -503,6 +503,13 @@ margin-bottom: 30px;
 .employee-soc-link:hover .employee-soc-icons{
   fill: #ffffff;
 }
+.employee-soc-link:focus {
+  background-color: var(--accent-color);
+}
+
+.employee-soc-link:focus .employee-soc-icons {
+  fill: #ffffff;
+}
 /* footer */
 .footer {
   background-color: #2f303a;
