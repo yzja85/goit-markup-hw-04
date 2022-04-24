@@ -167,6 +167,12 @@ body {
 /* section 1 */
 .section-1 {
   background-color: #2f303a;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url(../images/img-fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   }
@@ -398,6 +404,7 @@ border-radius: 0px 0px 4px 4px;
   color: var(--second-text-color);
   margin-top: 10px;
   text-align: center;
+  margin-bottom: 16px;
 }
 .section-4-img2-name {
   font-weight: 500;
@@ -415,6 +422,7 @@ border-radius: 0px 0px 4px 4px;
   color: var(--second-text-color);
   margin-top: 10px;
   text-align: center;
+  margin-bottom: 16px;
 }
 .section-4-img3-name {
   font-weight: 500;
@@ -432,6 +440,7 @@ border-radius: 0px 0px 4px 4px;
   color: var(--second-text-color);
   margin-top: 10px;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .section-4-img4-name {
@@ -450,6 +459,7 @@ border-radius: 0px 0px 4px 4px;
   color: var(--second-text-color);
   margin-top: 10px;
   text-align: center;
+  margin-bottom: 16px;
   
 }
 .employee-description-1{
@@ -468,7 +478,31 @@ margin-bottom: 30px;
 padding-top: 30px;
 margin-bottom: 30px;
 }
-
+.employee-soc-list{
+  display: flex;
+  justify-content: center;
+}
+.employee-soc-item +.employee-soc-item{
+  margin-left: 10px;
+}
+.employee-soc-link{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.employee-soc-icons{
+  fill:#AFB1B8 ;
+}
+.employee-soc-link:hover{
+  background-color: var(--accent-color);
+}
+.employee-soc-link:hover .employee-soc-icons{
+  fill: #ffffff;
+}
 /* footer */
 .footer {
   background-color: #2f303a;
