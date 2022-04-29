@@ -851,6 +851,9 @@ padding-bottom: 30px;
 .effect-shadow:hover{
 box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
+.effect-shadow:focus {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
 .second-portfolio-item-2{
 margin-top: 0;
 margin-right: 30px;
