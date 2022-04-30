@@ -154,7 +154,8 @@ body {
   margin-right: 30px;
 }
 .header-mail-link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-family:'roboto',sans-serif;
@@ -165,12 +166,11 @@ body {
 
   color: var(--second-text-color);
 }
-.mail-icon{
-  fill:var(--second-text-color) ;
-  width: 16px;
-  height: 12px;
+.mail-icon {
+  fill: var(--second-text-color);
+ 
   margin-right: 10px;
-  align-items: center;
+
 }
 
 .header-tel-link {
@@ -184,10 +184,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
-.mail-tel{
-  display: flex;
- 
-}
+
+
 .mail-tel:hover{
   color: var(--accent-color);
 }
@@ -200,13 +198,11 @@ body {
 .mail-tel:focus .mail-icon {
   fill: var(--accent-color);
 }
-.mail-icon-link{
-  padding-top: 34px;
 
-}
 /* main */
 /* section 1 */
 .section-1 {
+  width: 1600px;
   background-color: #C4C4C4;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
   url(../images/img-fon.png);
@@ -848,12 +844,10 @@ padding-bottom: 30px;
 .effect-shadow{
   display: block;
 }
-.effect-shadow:hover{
+.effect-shadow:hover, :focus{
 box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
-.effect-shadow:focus {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-}
+
 .second-portfolio-item-2{
 margin-top: 0;
 margin-right: 30px;
